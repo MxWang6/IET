@@ -7,7 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EEDF1DF11E3383A70052BAD4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEDF1DF01E3383A70052BAD4 /* main.cpp */; };
+		EE8B20211E898641008370B9 /* LabAssignment2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE8B20201E898641008370B9 /* LabAssignment2.cpp */; };
+		EEDF1DF81E3383D70052BAD4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF1DF71E3383D70052BAD4 /* OpenGL.framework */; };
+		EEDF1DFA1E3386850052BAD4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF1DF91E3386850052BAD4 /* Cocoa.framework */; };
+		EEDF1DFC1E3386990052BAD4 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF1DFB1E3386990052BAD4 /* GLUT.framework */; };
+		EEDF1DFE1E338AE10052BAD4 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF1DFD1E338AE10052BAD4 /* libglfw3.a */; };
+		EEDF1E001E338CDC0052BAD4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF1DFF1E338CDC0052BAD4 /* CoreFoundation.framework */; };
+		EEDF1E021E338CEB0052BAD4 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF1E011E338CEB0052BAD4 /* IOKit.framework */; };
+		EEDF1E041E338D040052BAD4 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF1E031E338D040052BAD4 /* CoreVideo.framework */; };
+		EEDF1E061E338E590052BAD4 /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF1E051E338E590052BAD4 /* libGLEW.2.0.0.dylib */; };
+		EEDF1E081E338F9F0052BAD4 /* libSOIL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF1E071E338F9F0052BAD4 /* libSOIL.dylib */; };
+		EEDF1E0B1E3396F30052BAD4 /* libassimp.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEDF1E0A1E3396F30052BAD4 /* libassimp.3.3.1.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +33,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EE8B20201E898641008370B9 /* LabAssignment2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LabAssignment2.cpp; sourceTree = "<group>"; };
+		EE8B20221E8A7A5D008370B9 /* AI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AI; sourceTree = "<group>"; };
 		EEDF1DED1E3383A70052BAD4 /* OpenGL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpenGL; sourceTree = BUILT_PRODUCTS_DIR; };
-		EEDF1DF01E3383A70052BAD4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EEDF1DF71E3383D70052BAD4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		EEDF1DF91E3386850052BAD4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EEDF1DFB1E3386990052BAD4 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		EEDF1DFD1E338AE10052BAD4 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../../../../usr/local/lib/libglfw3.a; sourceTree = "<group>"; };
+		EEDF1DFF1E338CDC0052BAD4 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EEDF1E011E338CEB0052BAD4 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		EEDF1E031E338D040052BAD4 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		EEDF1E051E338E590052BAD4 /* libGLEW.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.0.0.dylib; path = ../../../../usr/local/lib/libGLEW.2.0.0.dylib; sourceTree = "<group>"; };
+		EEDF1E071E338F9F0052BAD4 /* libSOIL.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSOIL.dylib; path = ../../../../opt/local/lib/libSOIL.dylib; sourceTree = "<group>"; };
+		EEDF1E091E3395170052BAD4 /* libs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = libs; path = OpenGL/libs; sourceTree = "<group>"; };
+		EEDF1E0A1E3396F30052BAD4 /* libassimp.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.3.3.1.dylib; path = ../../../../usr/local/lib/libassimp.3.3.1.dylib; sourceTree = "<group>"; };
+		EEDF1E0C1E33C71F0052BAD4 /* triangle.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = triangle.vs; sourceTree = "<group>"; };
+		EEDF1E0F1E33C84C0052BAD4 /* triangle.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = triangle.frag; sourceTree = "<group>"; };
+		EEDF1E181E379C0A0052BAD4 /* plane.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = plane.vert; sourceTree = "<group>"; };
+		EEDF1E191E379C200052BAD4 /* plane.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = plane.frag; sourceTree = "<group>"; };
+		EEDF1E2F1E531F110052BAD4 /* handModel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = handModel; sourceTree = "<group>"; };
+		EEDF1E321E55A7E10052BAD4 /* hand.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = hand.vert; sourceTree = "<group>"; };
+		EEDF1E331E55A7FF0052BAD4 /* hand.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = hand.frag; sourceTree = "<group>"; };
+		EEDF1E421E5F585B0052BAD4 /* man */ = {isa = PBXFileReference; lastKnownFileType = folder; path = man; sourceTree = "<group>"; };
+		EEE502EF1E6C956400506E90 /* football */ = {isa = PBXFileReference; lastKnownFileType = folder; path = football; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +63,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEDF1E0B1E3396F30052BAD4 /* libassimp.3.3.1.dylib in Frameworks */,
+				EEDF1E081E338F9F0052BAD4 /* libSOIL.dylib in Frameworks */,
+				EEDF1E061E338E590052BAD4 /* libGLEW.2.0.0.dylib in Frameworks */,
+				EEDF1E041E338D040052BAD4 /* CoreVideo.framework in Frameworks */,
+				EEDF1E021E338CEB0052BAD4 /* IOKit.framework in Frameworks */,
+				EEDF1E001E338CDC0052BAD4 /* CoreFoundation.framework in Frameworks */,
+				EEDF1DFE1E338AE10052BAD4 /* libglfw3.a in Frameworks */,
+				EEDF1DFC1E3386990052BAD4 /* GLUT.framework in Frameworks */,
+				EEDF1DFA1E3386850052BAD4 /* Cocoa.framework in Frameworks */,
+				EEDF1DF81E3383D70052BAD4 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +82,17 @@
 		EEDF1DE41E3383A70052BAD4 = {
 			isa = PBXGroup;
 			children = (
+				EEDF1E0A1E3396F30052BAD4 /* libassimp.3.3.1.dylib */,
+				EEDF1E071E338F9F0052BAD4 /* libSOIL.dylib */,
+				EEDF1E051E338E590052BAD4 /* libGLEW.2.0.0.dylib */,
+				EEDF1E031E338D040052BAD4 /* CoreVideo.framework */,
+				EEDF1E011E338CEB0052BAD4 /* IOKit.framework */,
+				EEDF1DFF1E338CDC0052BAD4 /* CoreFoundation.framework */,
+				EEDF1DFD1E338AE10052BAD4 /* libglfw3.a */,
+				EEDF1DFB1E3386990052BAD4 /* GLUT.framework */,
+				EEDF1DF91E3386850052BAD4 /* Cocoa.framework */,
+				EEDF1DF71E3383D70052BAD4 /* OpenGL.framework */,
+				EEDF1E091E3395170052BAD4 /* libs */,
 				EEDF1DEF1E3383A70052BAD4 /* OpenGL */,
 				EEDF1DEE1E3383A70052BAD4 /* Products */,
 			);
@@ -57,9 +109,43 @@
 		EEDF1DEF1E3383A70052BAD4 /* OpenGL */ = {
 			isa = PBXGroup;
 			children = (
-				EEDF1DF01E3383A70052BAD4 /* main.cpp */,
+				EE8B20221E8A7A5D008370B9 /* AI */,
+				EE8B20201E898641008370B9 /* LabAssignment2.cpp */,
+				EEE502EF1E6C956400506E90 /* football */,
+				EEDF1E421E5F585B0052BAD4 /* man */,
+				EEDF1E311E55A7B00052BAD4 /* AssignmentLab3 */,
+				EEDF1E2F1E531F110052BAD4 /* handModel */,
+				EEDF1E171E379B670052BAD4 /* AssignmentShader2 */,
+				EEDF1E161E379B380052BAD4 /* Assignment1 */,
 			);
 			path = OpenGL;
+			sourceTree = "<group>";
+		};
+		EEDF1E161E379B380052BAD4 /* Assignment1 */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF1E0C1E33C71F0052BAD4 /* triangle.vs */,
+				EEDF1E0F1E33C84C0052BAD4 /* triangle.frag */,
+			);
+			name = Assignment1;
+			sourceTree = "<group>";
+		};
+		EEDF1E171E379B670052BAD4 /* AssignmentShader2 */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF1E181E379C0A0052BAD4 /* plane.vert */,
+				EEDF1E191E379C200052BAD4 /* plane.frag */,
+			);
+			name = AssignmentShader2;
+			sourceTree = "<group>";
+		};
+		EEDF1E311E55A7B00052BAD4 /* AssignmentLab3 */ = {
+			isa = PBXGroup;
+			children = (
+				EEDF1E331E55A7FF0052BAD4 /* hand.frag */,
+				EEDF1E321E55A7E10052BAD4 /* hand.vert */,
+			);
+			name = AssignmentLab3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEDF1DF11E3383A70052BAD4 /* main.cpp in Sources */,
+				EE8B20211E898641008370B9 /* LabAssignment2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +295,18 @@
 		EEDF1DF51E3383A70052BAD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/**",
+					"/opt/local/include/SOIL/**",
+					"/usr/local/include/glm/**",
+					/usr/local/include/GL,
+					"/usr/local/include/GLFW/**",
+					/usr/local/include/assimp,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/**",
+					"/opt/local/lib/**",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -216,6 +314,18 @@
 		EEDF1DF61E3383A70052BAD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/**",
+					"/opt/local/include/SOIL/**",
+					"/usr/local/include/glm/**",
+					/usr/local/include/GL,
+					"/usr/local/include/GLFW/**",
+					/usr/local/include/assimp,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/**",
+					"/opt/local/lib/**",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -239,6 +349,7 @@
 				EEDF1DF61E3383A70052BAD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
